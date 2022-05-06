@@ -17,7 +17,7 @@ function App() {
         lon: long,
         appid: process.env.REACT_APP_OPEN_WEATHER_KEY,
         lang: 'pt',
-        units: 'metric'
+        units: 'metric',
       }
     });
     setWeather(res.data);
@@ -33,7 +33,7 @@ function App() {
     })
   }, []);
 
-  // Tratamento de erro => não foi possível pegar a localização
+  // Tratamento de erro => renderização de informações
   if (location === false) {
     return (
       <>
