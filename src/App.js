@@ -54,9 +54,9 @@ function App() {
         <ul>
           <li>Temperatua atual: {weather['main']['temp']}º</li>
           <li>Temperatura máxima:{weather['main']['temp_max']}º</li>
-          <li>Temepratura mínima: {weather['main']['temp_min']}º</li>
+          <li>Temperatura mínima: {weather['main']['temp_min']}º</li>
           <li>Pressão: {weather['main']['pressure']}</li>
-          <li>Umidade: {weather['main']['humidity']}º%</li>
+          <li>Umidade: {weather['main']['humidity']}%</li>
         </ul>
       </>
     );
